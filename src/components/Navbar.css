@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+/* Custom background with a healthcare theme */
+.custom-navbar {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F6712985-abstract-health-medical-science-healthcare-icon-digital-technology-science-concept-modern-innovation-treatment-medicine-on-hi-tech-future-blue-background-for-wallpaper-template-web-design&psig=AOvVaw3TNqHA-kq1NDnHP3Nh7pr5&ust=1729848760481000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjF_I7bpokDFQAAAAAdAAAAABAE'); /* You can use any healthcare-themed image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+}
+
+/* Add a semi-transparent background to the navbar content for better contrast */
+.custom-navbar .container-fluid {
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% transparency */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Logo styling */
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Custom color for navbar links */
+.navbar .nav-link {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #FF7F50; /* Coral hover effect */
+    text-decoration: underline;
+}
+
+/* Custom styling for the search button */
+.navbar .btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #FF7F50; /* Coral color for hover */
+    border-color: #FF7F50;
+    color: #ffffff;
+}
+
+/* Add some subtle box-shadow */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* For mobile responsiveness */
+@media (max-width: 992px) {
+    .custom-navbar {
+        background-size: contain;
+    }
+}
